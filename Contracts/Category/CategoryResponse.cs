@@ -1,0 +1,10 @@
+﻿namespace Shopping.Contracts.Category
+{
+    public record CategoryResponse(
+        int Id,
+        string Name,
+        string? Description
+        );
+
+    
+}
